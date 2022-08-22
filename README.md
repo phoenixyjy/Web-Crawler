@@ -11,6 +11,7 @@ The essential keys of deploying a successful crawler:
 5. leave sometime for the website to render, so you can have the full elements of the target website.
 
 ## files explaination
-PostCode Crawler and the cash rate crawler are the typical easy crawler's. The idea is more basic, just locate the element by CSS tag
+PostCode Crawler and the cash rate crawler are the typical easy crawler's. The idea is more basic, just locate the element by CSS tags
+cash rate is published by the RBA, and it is an important feature that we need for our machine learning algorithm which predicts the Real estate market.
 crawler 1 is a little bit more complicated
 crawler 2 is the an more advanced crawler with proxy rotation, and proxy pre-checking.
