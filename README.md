@@ -9,3 +9,7 @@ The essential keys of deploying a successful crawler:
 3. user-agent rotation(less important)
 4. Do not call the website too fast.
 5. leave sometime for the website to render, so you can have the full elements of the target website.
+
+## files explaination
+crawler 1 and crawler 2 are the simpler crawlers
+crawler 3 is a more complicated cralwer
