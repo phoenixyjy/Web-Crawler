@@ -35,9 +35,9 @@ for city in cities:
     letters = driver.find_elements(By.CLASS_NAME,'css-11alnep')
     for x in letters:
         suburb =  x.find_elements(By.CLASS_NAME,'css-3xqrp1')
-        # 每一个each代表一个suburb的所有房子
+        # each represents all properties in the suburb
         for each in suburb:
-            #提取这个suburb的名字
+            #select suburb's name
             sub_name = each.find_element(By.CSS_SELECTOR,'h3').text
             estates = each.find_elements(By.CLASS_NAME,'css-qflns9')
             for y in estates:
