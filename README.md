@@ -11,5 +11,6 @@ The essential keys of deploying a successful crawler:
 5. leave sometime for the website to render, so you can have the full elements of the target website.
 
 ## files explaination
-crawler 1 and crawler 2 are the simpler crawlers
-crawler 3 is a more complicated cralwer
+PostCode Crawler and the cash rate crawler are the typical easy crawler's. The idea is more basic, just locate the element by CSS tag
+crawler 1 is a little bit more complicated
+crawler 2 is the an more advanced crawler with proxy rotation, and proxy pre-checking.
